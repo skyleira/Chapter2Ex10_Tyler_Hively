@@ -8,14 +8,12 @@ Write a program that calculates the number of miles per gallon the car gets.
 Display the result on the screen.
 
 Hint: Use the following formula to calculate miles per gallon (MPG):
-
 MPG = Miles Driven/Gallons of Gas Used
-Once you have coded this and placed in your main branch in GitHub, create a second branch that revises your code so 
 
-that the user can enter the number of gallons and the miles driven.
-
+Once you have coded this and placed in your main branch in GitHub, 
+create a second branch that revises your code so that 
+the user can enter the number of gallons and the miles driven.
 Be sure you have posted your code to GitHub and submitted the URL  in Canvas for that project.
-
 */
 
 #include <iostream>
