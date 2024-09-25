@@ -22,14 +22,16 @@ int main()
 {
 	int Milesdriven;
 	int Gasgallons;
-	int Mileage;
-	Milesdriven = 375;
-	Gasgallons = 15;
-	Mileage = 375 / 15;
+	int Milesperg;
 	cout << "----Mileage Calculator----" << endl;
+	cout << "Please enter how many gallons of gasoline your vehicle can hold." << endl;
+	cin >> Gasgallons;
+	cout << "Please enter how many miles your vehicle can travel before needing to refuel." << endl;
+	cin >> Milesdriven;
+	Milesperg = Milesdriven / Gasgallons;
 	cout << "If a vehicle cam hold up to " << Gasgallons << " gallons of gasoline..." << endl;
 	cout << "And can travel up to " << Milesdriven << " before needing to refuel..." << endl;
-	cout << "Then that vehicle has a mileage of " << Mileage << " miles per gallon (MPG)." << endl;
+	cout << "Then that vehicle has a mileage of " << Milesperg << " miles per gallon (MPG)." << endl;
 
 
 }
