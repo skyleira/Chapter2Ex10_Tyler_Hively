@@ -23,7 +23,7 @@ int main()
 	int Milesdriven;
 	int Gasgallons;
 	int Milesperg;
-	cout << "----Mileage Calculator----" << endl;
+	cout << "----MPG Calculator----" << endl;
 	cout << "Please enter how many gallons of gasoline your vehicle can hold." << endl;
 	cin >> Gasgallons;
 	cout << "Please enter how many miles your vehicle can travel before needing to refuel." << endl;
